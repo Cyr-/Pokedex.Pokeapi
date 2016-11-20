@@ -1,4 +1,4 @@
-﻿namespace Pokedex.Model.Pokemon
+﻿namespace Pokedex.Pokeapi.Pokemon
 {
     public class NaturePokeathlonStatAffectSets
     {
