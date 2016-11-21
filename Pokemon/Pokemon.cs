@@ -11,13 +11,13 @@ namespace Pokedex.Pokeapi.Pokemon
         public int Order { get; set; }
         public int Weight { get; set; }
         public List<PokemonAbility> Abilities { get; set; }
-        public List<NamedApiResource<PokemonForm>> Forms { get; set; }
+        public List<PokemonForm> Forms { get; set; }
         public List<VersionGameIndex> GameIndicies { get; set; }
         public List<PokemonHeldItem> HeldItems { get; set; }
         public string LocationAreaEncounters { get; set; }
         public List<PokemonMove> Moves { get; set; }
         public PokemonSprites Sprites { get; set; }
-        public NamedApiResource<PokemonSpecies> Species { get; set; }
+        public PokemonSpecies Species { get; set; }
         public List<PokemonStat> Stats { get; set; }
         public List<PokemonType> Types { get; set; }
     }
